@@ -1,5 +1,89 @@
 [
   {
+    "_type": "BolusWizard", 
+    "bg": 157, 
+    "bg_target_high": 120, 
+    "_description": "BolusWizard 2016-04-10T16:26:10 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-04-10T16:26:10", 
+    "_body": "465000b4506e12009a000012009a78", 
+    "_head": "5b9d", 
+    "unabsorbed_insulin_total": 0.45, 
+    "correction_estimate": 0.45, 
+    "_date": "4a1a100a10", 
+    "bolus_estimate": 3.85, 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[29], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.3, 
+            "age": 8
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 118
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 148
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 318
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 328
+          }, 
+          {
+            "amount": 1.7, 
+            "age": 368
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 398
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 408
+          }, 
+          {
+            "amount": 2.55, 
+            "age": 468
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c1d0c08c00c76c01894c0183ed01848d04470d00c8ed00c98d066d4d0", 
+        "_date": ""
+      }
+    ], 
+    "bg_target_low": 110, 
+    "carb_ratio": 18.0, 
+    "food_estimate": 3.85, 
+    "carb_input": 70, 
+    "sensitivity": 80
+  }, 
+  {
+    "_type": "BGReceived", 
+    "link": "c23647", 
+    "_description": "BGReceived 2016-04-10T16:25:34 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-04-10T16:25:34", 
+    "_body": "c23647", 
+    "_head": "3f13", 
+    "amount": 157, 
+    "_date": "6219b06a10"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-04-10T16:25:34 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-04-10T16:25:34", 
+    "_body": "", 
+    "_head": "0a9d", 
+    "amount": 157, 
+    "_date": "6219306a10"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-04-10T16:19:45 head[2], body[0] op[0x16]", 
@@ -838,78 +922,5 @@
     "_head": "3316", 
     "rate": 0.55, 
     "_date": "6b1d0a4a10"
-  }, 
-  {
-    "programmed": 1.7, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-04-10T10:22:16 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-04-10T10:22:16", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 0.3, 
-            "age": 34
-          }, 
-          {
-            "amount": 0.3, 
-            "age": 44
-          }, 
-          {
-            "amount": 2.55, 
-            "age": 104
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c0b0c22c00c2cc06668c0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100440044003a00", 
-    "amount": 1.7, 
-    "unabsorbed": 1.45, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "50162a0a10"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 0, 
-    "bg_target_high": 120, 
-    "_description": "BolusWizard 2016-04-10T10:22:16 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-04-10T10:22:16", 
-    "_body": "325000aa506e000074000000007478", 
-    "_head": "5b00", 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 0.0, 
-    "_date": "50160a0a10", 
-    "bolus_estimate": 2.9, 
-    "bg_target_low": 110, 
-    "carb_ratio": 17.0, 
-    "food_estimate": 2.9, 
-    "carb_input": 50, 
-    "sensitivity": 80
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-04-10T10:19:55 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-04-10T10:19:55", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "77130a4a10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-04-10T10:19:55 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-04-10T10:19:55", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "77130a4a10"
   }
 ]
