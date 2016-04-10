@@ -1,110 +1,31 @@
 [
   {
-    "duration": "0",
-    "bolus": {
-      "_type": "Bolus",
-      "_description": "Bolus 2016-04-10T16:26:10 head[8], body[0] op[0x01]",
-      "timestamp": "2016-04-10T16:26:10-07:00",
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-04-10T16:29:15 head[2], body[0] op[0x16]",
+      "timestamp": "2016-04-10T16:29:15-07:00",
       "_body": "",
-      "appended": [
-        {
-          "_type": "UnabsorbedInsulinBolus",
-          "_description": "UnabsorbedInsulinBolus unknown head[29], body[0] op[0x5c]",
-          "_body": "",
-          "_head": "5c1d0c08c00c76c01894c0183ed01848d04470d00c8ed00c98d066d4d0",
-          "data": [
-            {
-              "amount": 0.3,
-              "age": 8
-            },
-            {
-              "amount": 0.3,
-              "age": 118
-            },
-            {
-              "amount": 0.6,
-              "age": 148
-            },
-            {
-              "amount": 0.6,
-              "age": 318
-            },
-            {
-              "amount": 0.6,
-              "age": 328
-            },
-            {
-              "amount": 1.7,
-              "age": 368
-            },
-            {
-              "amount": 0.3,
-              "age": 398
-            },
-            {
-              "amount": 0.3,
-              "age": 408
-            },
-            {
-              "amount": 2.55,
-              "age": 468
-            }
-          ],
-          "_date": ""
-        }
-      ],
-      "programmed": 2.75,
-      "duration": 0,
-      "amount": 2.75,
-      "unabsorbed": 0.45,
-      "_head": "01006e006e001200",
-      "type": "normal",
-      "_date": "4a1a300a10"
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "4f1d104a10"
     },
-    "timestamp": "2016-04-10T16:26:10-07:00",
-    "created_at": "2016-04-10T16:26:10-07:00",
-    "carbs": "70",
-    "ratio": "18",
-    "bg": "157",
-    "glucose": "157",
-    "glucoseType": "BolusWizard",
-    "wizard": {
-      "_type": "BolusWizard",
-      "bg": 157,
-      "_description": "BolusWizard 2016-04-10T16:26:10 head[2], body[15] op[0x5b]",
-      "timestamp": "2016-04-10T16:26:10-07:00",
-      "_body": "465000b4506e12009a000012009a78",
-      "carb_input": 70,
-      "bg_target_high": 120,
-      "sensitivity": 80,
-      "carb_ratio": 18,
-      "food_estimate": 3.85,
-      "unabsorbed_insulin_total": 0.45,
-      "correction_estimate": 0.45,
-      "bg_target_low": 110,
-      "_head": "5b9d",
-      "bolus_estimate": 3.85,
-      "_date": "4a1a100a10"
+    "timestamp": "2016-04-10T16:29:15-07:00",
+    "absolute": "0.5",
+    "rate": 0.5,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-04-10T16:29:15 head[2], body[1] op[0x33]",
+      "timestamp": "2016-04-10T16:29:15-07:00",
+      "_body": "00",
+      "_head": "3314",
+      "rate": 0.5,
+      "_date": "4f1d104a10"
     },
-    "eventType": "Meal Bolus",
-    "insulin": "2.75",
-    "notes": "Normal bolus with wizard.\nProgrammed bolus 2.75\nDelivered bolus 2.75\nPercent delivered:  100%\nFood estimate 3.85\nCorrection estimate 0.45\nBolus estimate 3.85\nTarget low 110\nTarget high 120\nHypothetical glucose delta -220\nGlucose was: 157",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus",
-    "enteredBy": "openaps://medtronic/723"
-  },
-  {
-    "_type": "CalBGForPH",
-    "_description": "CalBGForPH 2016-04-10T16:25:34 head[2], body[0] op[0x0a]",
-    "timestamp": "2016-04-10T16:25:34-07:00",
-    "_body": "",
-    "_head": "0a9d",
-    "amount": 157,
-    "_date": "6219306a10",
-    "eventType": "BG Check",
-    "glucose": 157,
-    "glucoseType": "Finger",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
-    "created_at": "2016-04-10T16:25:34-07:00",
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-04-10T16:29:15-07:00",
     "enteredBy": "openaps://medtronic/723"
   }
 ]
