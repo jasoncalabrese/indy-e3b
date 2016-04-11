@@ -1,5 +1,24 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-04-11T13:54:40 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-04-11T13:54:40", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "68360d4b10"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-04-11T13:54:40 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-04-11T13:54:40", 
+    "_body": "00", 
+    "_head": "3336", 
+    "rate": 1.35, 
+    "_date": "68360d4b10"
+  }, 
+  {
     "programmed": 0.3, 
     "_type": "Bolus", 
     "_description": "Bolus 2016-04-11T13:50:35 head[8], body[0] op[0x01]", 
@@ -942,55 +961,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "7408084b10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-04-11T07:54:04 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-04-11T07:54:04", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "4436074b10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-04-11T07:54:04 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-04-11T07:54:04", 
-    "_body": "00", 
-    "_head": "3316", 
-    "rate": 0.55, 
-    "_date": "4436074b10"
-  }, 
-  {
-    "programmed": 2.0, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-04-11T07:50:36 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-04-11T07:50:36", 
-    "_body": "", 
-    "_head": "0100500050000000", 
-    "amount": 2.0, 
-    "unabsorbed": 0.0, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "6432270b10"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 96, 
-    "bg_target_high": 120, 
-    "_description": "BolusWizard 2016-04-11T07:50:35 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-04-11T07:50:35", 
-    "_body": "16500064506ef80058f80000005078", 
-    "_head": "5b60", 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 51.0, 
-    "_date": "6332070b10", 
-    "bolus_estimate": 2.0, 
-    "bg_target_low": 110, 
-    "carb_ratio": 10.0, 
-    "food_estimate": 2.2, 
-    "carb_input": 22, 
-    "sensitivity": 80
   }
 ]
