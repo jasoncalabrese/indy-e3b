@@ -1,66 +1,30 @@
 {
-  "_id": "570cabec65110bbfc192b838",
-  "ratio": "16",
-  "bg": "239",
-  "glucose": 239,
-  "glucoseType": "BolusWizard",
-  "wizard": {
-    "_type": "BolusWizard",
-    "bg": 239,
-    "_description": "BolusWizard 2016-04-12T01:02:49 head[2], body[15] op[0x5b]",
-    "timestamp": "2016-04-12T01:02:49-07:00",
-    "_body": "005000a0506e3a0000000026001478",
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus",
-        "_description": "UnabsorbedInsulinBolus unknown head[20], body[0] op[0x5c]",
-        "_body": "",
-        "_head": "5c14164ac04668c00c44d03076d030d0d056dad0",
-        "data": [
-          {
-            "amount": 0.55,
-            "age": 74
-          },
-          {
-            "amount": 1.75,
-            "age": 104
-          },
-          {
-            "amount": 0.3,
-            "age": 324
-          },
-          {
-            "amount": 1.2,
-            "age": 374
-          },
-          {
-            "amount": 1.2,
-            "age": 464
-          },
-          {
-            "amount": 2.15,
-            "age": 474
-          }
-        ],
-        "_date": ""
-      }
-    ],
-    "bg_target_high": 120,
-    "sensitivity": 80,
-    "carb_input": 0,
-    "carb_ratio": 16,
-    "food_estimate": 0,
-    "unabsorbed_insulin_total": 0.95,
-    "correction_estimate": 1.45,
-    "bg_target_low": 110,
-    "_head": "5bef",
-    "bolus_estimate": 0.5,
-    "_date": "7102010c10"
+  "_id": "570cac2d65110bbfc192b83b",
+  "duration": 30,
+  "raw_duration": {
+    "_type": "TempBasalDuration",
+    "_description": "TempBasalDuration 2016-04-12T01:03:56 head[2], body[0] op[0x16]",
+    "timestamp": "2016-04-12T01:03:56-07:00",
+    "_body": "",
+    "_head": "1601",
+    "duration (min)": 30,
+    "_date": "7803014c10"
   },
-  "timestamp": "2016-04-12T01:02:49-07:00",
-  "created_at": "2016-04-12T01:02:49-07:00",
-  "eventType": "<none>",
-  "notes": "Food estimate 0\nCorrection estimate 1.45\nBolus estimate 0.5\nTarget low 110\nTarget high 120\nHypothetical glucose delta 0\nGlucose was: 239",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/<none>",
+  "timestamp": "2016-04-12T01:03:56-07:00",
+  "absolute": 1.7,
+  "rate": 1.7,
+  "raw_rate": {
+    "_type": "TempBasal",
+    "temp": "absolute",
+    "_description": "TempBasal 2016-04-12T01:03:56 head[2], body[1] op[0x33]",
+    "timestamp": "2016-04-12T01:03:56-07:00",
+    "_body": "00",
+    "_head": "3344",
+    "rate": 1.7,
+    "_date": "7803014c10"
+  },
+  "eventType": "Temp Basal",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+  "created_at": "2016-04-12T01:03:56-07:00",
   "enteredBy": "openaps://medtronic/723"
 }
