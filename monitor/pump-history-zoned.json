@@ -1,5 +1,24 @@
 [
   {
+    "_type": "BGReceived", 
+    "_description": "BGReceived 2016-04-14T20:44:10 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-04-14T20:44:10-07:00", 
+    "_body": "c23647", 
+    "_head": "3f05", 
+    "amount": 40, 
+    "link": "c23647", 
+    "_date": "4a2c146e10"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-04-14T20:44:10 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-04-14T20:44:10-07:00", 
+    "_body": "", 
+    "_head": "0a28", 
+    "amount": 40, 
+    "_date": "4a2c346e10"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-04-14T20:31:00 head[2], body[0] op[0x16]", 
     "timestamp": "2016-04-14T20:31:00-07:00", 
@@ -887,129 +906,5 @@
     "_head": "3312", 
     "rate": 0.45, 
     "_date": "45340e4e10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-04-14T14:40:26 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-04-14T14:40:26-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "5a280e4e10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-04-14T14:40:26 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-04-14T14:40:26-07:00", 
-    "_body": "00", 
-    "_head": "3348", 
-    "rate": 1.8, 
-    "_date": "5a280e4e10"
-  }, 
-  {
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-04-14T14:38:15 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-04-14T14:38:15-07:00", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[35], body[0] op[0x5c]", 
-        "_body": "", 
-        "_head": "5c231628c00ca0c00cbec05afac00c18d00c36d00454d00590d0039ad002b8d002ccd0", 
-        "data": [
-          {
-            "amount": 0.55, 
-            "age": 40
-          }, 
-          {
-            "amount": 0.3, 
-            "age": 160
-          }, 
-          {
-            "amount": 0.3, 
-            "age": 190
-          }, 
-          {
-            "amount": 2.25, 
-            "age": 250
-          }, 
-          {
-            "amount": 0.3, 
-            "age": 280
-          }, 
-          {
-            "amount": 0.3, 
-            "age": 310
-          }, 
-          {
-            "amount": 0.1, 
-            "age": 340
-          }, 
-          {
-            "amount": 0.125, 
-            "age": 400
-          }, 
-          {
-            "amount": 0.075, 
-            "age": 410
-          }, 
-          {
-            "amount": 0.05, 
-            "age": 440
-          }, 
-          {
-            "amount": 0.05, 
-            "age": 460
-          }
-        ], 
-        "_date": ""
-      }
-    ], 
-    "programmed": 0.45, 
-    "duration": 0, 
-    "amount": 0.45, 
-    "unabsorbed": 0.5, 
-    "_head": "0100120012001400", 
-    "type": "normal", 
-    "_date": "4f262e0e10"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 197, 
-    "_description": "BolusWizard 2016-04-14T14:38:15 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-04-14T14:38:15-07:00", 
-    "_body": "005000b4506e260000000014001278", 
-    "carb_input": 0, 
-    "bg_target_high": 120, 
-    "sensitivity": 80, 
-    "carb_ratio": 18.0, 
-    "food_estimate": 0.0, 
-    "unabsorbed_insulin_total": 0.5, 
-    "correction_estimate": 0.95, 
-    "bg_target_low": 110, 
-    "_head": "5bc5", 
-    "bolus_estimate": 0.45, 
-    "_date": "4f260e0e10"
-  }, 
-  {
-    "_type": "BGReceived", 
-    "_description": "BGReceived 2016-04-14T14:37:47 head[2], body[3] op[0x3f]", 
-    "timestamp": "2016-04-14T14:37:47-07:00", 
-    "_body": "c23647", 
-    "_head": "3f18", 
-    "amount": 197, 
-    "link": "c23647", 
-    "_date": "6f25ae6e10"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-04-14T14:37:47 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-04-14T14:37:47-07:00", 
-    "_body": "", 
-    "_head": "0ac5", 
-    "amount": 197, 
-    "_date": "6f252e6e10"
   }
 ]
