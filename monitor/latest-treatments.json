@@ -1,16 +1,75 @@
 {
-  "_id": "5710640465110bbfc192bd97",
-  "_type": "CalBGForPH",
-  "_description": "CalBGForPH 2016-04-14T20:44:10 head[2], body[0] op[0x0a]",
-  "timestamp": "2016-04-14T20:44:10-07:00",
-  "_body": "",
-  "_head": "0a28",
-  "amount": 40,
-  "_date": "4a2c346e10",
-  "eventType": "BG Check",
+  "_id": "571064e765110bbfc192bd98",
+  "carbs": 12,
+  "ratio": "16",
+  "bg": "40",
   "glucose": 40,
-  "glucoseType": "Finger",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
-  "created_at": "2016-04-14T20:44:10-07:00",
+  "glucoseType": "BolusWizard",
+  "wizard": {
+    "_type": "BolusWizard",
+    "bg": 40,
+    "_description": "BolusWizard 2016-04-14T20:46:44 head[2], body[15] op[0x5b]",
+    "timestamp": "2016-04-14T20:46:44-07:00",
+    "_body": "0c5000a0506edc001ef80026000078",
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus",
+        "_description": "UnabsorbedInsulinBolus unknown head[26], body[0] op[0x5c]",
+        "_body": "",
+        "_head": "5c1a2e3ac00c76c018b2c018d0c014dac02ceec01270d01698d0",
+        "data": [
+          {
+            "amount": 1.15,
+            "age": 58
+          },
+          {
+            "amount": 0.3,
+            "age": 118
+          },
+          {
+            "amount": 0.6,
+            "age": 178
+          },
+          {
+            "amount": 0.6,
+            "age": 208
+          },
+          {
+            "amount": 0.5,
+            "age": 218
+          },
+          {
+            "amount": 1.1,
+            "age": 238
+          },
+          {
+            "amount": 0.45,
+            "age": 368
+          },
+          {
+            "amount": 0.55,
+            "age": 408
+          }
+        ],
+        "_date": ""
+      }
+    ],
+    "bg_target_high": 120,
+    "sensitivity": 80,
+    "carb_input": 12,
+    "carb_ratio": 16,
+    "food_estimate": 0.75,
+    "unabsorbed_insulin_total": 0.95,
+    "correction_estimate": 50.3,
+    "bg_target_low": 110,
+    "_head": "5b28",
+    "bolus_estimate": 0,
+    "_date": "6c2e140e10"
+  },
+  "timestamp": "2016-04-14T20:46:44-07:00",
+  "created_at": "2016-04-14T20:46:44-07:00",
+  "eventType": "Carb Correction",
+  "notes": "Food estimate 0.75\nCorrection estimate 50.3\nBolus estimate 0\nTarget low 110\nTarget high 120\nHypothetical glucose delta 0\nGlucose was: 40",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Carb Correction",
   "enteredBy": "openaps://medtronic/723"
 }
