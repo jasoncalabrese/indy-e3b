@@ -3,38 +3,42 @@
     "duration": "0",
     "bolus": {
       "_type": "Bolus",
-      "_description": "Bolus 2016-04-27T11:30:24 head[8], body[0] op[0x01]",
-      "timestamp": "2016-04-27T11:30:24-07:00",
+      "_description": "Bolus 2016-04-27T11:32:59 head[8], body[0] op[0x01]",
+      "timestamp": "2016-04-27T11:32:59-07:00",
       "_body": "",
       "appended": [
         {
           "_type": "UnabsorbedInsulinBolus",
-          "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]",
+          "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]",
           "_body": "",
-          "_head": "5c082252c07210d0",
+          "_head": "5c0b5a04c02254c07212d0",
           "data": [
             {
+              "amount": 2.25,
+              "age": 4
+            },
+            {
               "amount": 0.85,
-              "age": 82
+              "age": 84
             },
             {
               "amount": 2.85,
-              "age": 272
+              "age": 274
             }
           ],
           "_date": ""
         }
       ],
-      "programmed": 2.25,
+      "programmed": 2.05,
       "duration": 0,
-      "amount": 2.25,
-      "unabsorbed": 0.45,
-      "_head": "01005a005a001200",
+      "amount": 0.95,
+      "unabsorbed": 2.7,
+      "_head": "0100520026006c00",
       "type": "normal",
-      "_date": "581e2b1b10"
+      "_date": "7b202b1b10"
     },
-    "timestamp": "2016-04-27T11:30:24-07:00",
-    "created_at": "2016-04-27T11:30:24-07:00",
+    "timestamp": "2016-04-27T11:32:59-07:00",
+    "created_at": "2016-04-27T11:32:59-07:00",
     "carbs": "35",
     "ratio": "17",
     "bg": "172",
@@ -43,40 +47,38 @@
     "wizard": {
       "_type": "BolusWizard",
       "bg": 172,
-      "_description": "BolusWizard 2016-04-27T11:30:24 head[2], body[15] op[0x5b]",
-      "timestamp": "2016-04-27T11:30:24-07:00",
-      "_body": "235000aa506e1a0052000012005a78",
+      "_description": "BolusWizard 2016-04-27T11:32:59 head[2], body[15] op[0x5b]",
+      "timestamp": "2016-04-27T11:32:59-07:00",
+      "_body": "235000aa506e1a005200006c005278",
       "carb_input": 35,
       "bg_target_high": 120,
       "sensitivity": 80,
       "carb_ratio": 17,
       "food_estimate": 2.05,
-      "unabsorbed_insulin_total": 0.45,
+      "unabsorbed_insulin_total": 2.7,
       "correction_estimate": 0.65,
       "bg_target_low": 110,
       "_head": "5bac",
-      "bolus_estimate": 2.25,
-      "_date": "581e0b1b10"
+      "bolus_estimate": 2.05,
+      "_date": "7b200b1b10"
     },
     "eventType": "Meal Bolus",
-    "insulin": "2.25",
-    "notes": "Normal bolus with wizard.\nProgrammed bolus 2.25\nDelivered bolus 2.25\nPercent delivered:  100%\nFood estimate 2.05\nCorrection estimate 0.65\nBolus estimate 2.25\nTarget low 110\nTarget high 120\nHypothetical glucose delta -180\nGlucose was: 172",
+    "insulin": "0.95",
+    "notes": "Normal bolus with wizard.\nProgrammed bolus 2.05\nDelivered bolus 0.95\nPercent delivered:  46.34146341463415%\nFood estimate 2.05\nCorrection estimate 0.65\nBolus estimate 2.05\nTarget low 110\nTarget high 120\nHypothetical glucose delta -76\nGlucose was: 172",
     "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus",
     "enteredBy": "openaps://medtronic/723"
   },
   {
-    "_type": "CalBGForPH",
-    "_description": "CalBGForPH 2016-04-27T11:29:35 head[2], body[0] op[0x0a]",
-    "timestamp": "2016-04-27T11:29:35-07:00",
+    "_type": "PumpSuspend",
+    "_description": "PumpSuspend 2016-04-27T11:33:38 head[2], body[0] op[0x1e]",
+    "timestamp": "2016-04-27T11:33:38-07:00",
     "_body": "",
-    "_head": "0aac",
-    "amount": 172,
-    "_date": "631d2b7b10",
-    "eventType": "BG Check",
-    "glucose": 172,
-    "glucoseType": "Finger",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
-    "created_at": "2016-04-27T11:29:35-07:00",
-    "enteredBy": "openaps://medtronic/723"
+    "_head": "1e01",
+    "_date": "66210b1b10",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/PumpSuspend",
+    "created_at": "2016-04-27T11:33:38-07:00",
+    "enteredBy": "openaps://medtronic/723",
+    "eventType": "Note",
+    "notes": "PumpSuspend 723 "
   }
 ]
