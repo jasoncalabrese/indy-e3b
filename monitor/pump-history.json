@@ -1,5 +1,71 @@
 [
   {
+    "_type": "PumpResume", 
+    "_description": "PumpResume 2016-04-28T20:13:19 head[2], body[0] op[0x1f]", 
+    "timestamp": "2016-04-28T20:13:19", 
+    "_body": "", 
+    "_head": "1f20", 
+    "_date": "530d141c10"
+  }, 
+  {
+    "programmed": 3.75, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-04-28T20:12:46 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-04-28T20:12:46", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.6, 
+            "age": 14
+          }, 
+          {
+            "amount": 1.0, 
+            "age": 404
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c08180ec02894d0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "010096001a001800", 
+    "amount": 0.65, 
+    "unabsorbed": 0.6, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "6e0c341c10"
+  }, 
+  {
+    "_type": "PumpSuspend", 
+    "_description": "PumpSuspend 2016-04-28T20:13:11 head[2], body[0] op[0x1e]", 
+    "timestamp": "2016-04-28T20:13:11", 
+    "_body": "", 
+    "_head": "1e01", 
+    "_date": "4b0d141c10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 160, 
+    "_description": "BolusWizard 2016-04-28T20:12:46 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-04-28T20:12:46", 
+    "_body": "3c5000a050730000960000000096a0", 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "_date": "6e0c141c10", 
+    "bolus_estimate": 3.75, 
+    "bg_target_low": 115, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 3.75, 
+    "carb_input": 60, 
+    "sensitivity": 80
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-04-28T20:08:40 head[2], body[0] op[0x16]", 
