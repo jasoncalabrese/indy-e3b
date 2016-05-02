@@ -1,5 +1,65 @@
 [
   {
+    "_type": "BolusWizard", 
+    "bg": 111, 
+    "bg_target_high": 160, 
+    "_description": "BolusWizard 2016-05-02T11:46:52 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-05-02T11:46:52", 
+    "_body": "235000aa5073fe0052f800100050a0", 
+    "_head": "5b6f", 
+    "unabsorbed_insulin_total": 0.4, 
+    "correction_estimate": 51.15, 
+    "_date": "746e0b0210", 
+    "bolus_estimate": 2.0, 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 1.05, 
+            "age": 108
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 158
+          }, 
+          {
+            "amount": 2.4, 
+            "age": 298
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0b2a6cc00c9ec0602ad0", 
+        "_date": ""
+      }
+    ], 
+    "bg_target_low": 115, 
+    "carb_ratio": 17.0, 
+    "food_estimate": 2.05, 
+    "carb_input": 35, 
+    "sensitivity": 80
+  }, 
+  {
+    "_type": "BGReceived", 
+    "link": "c23647", 
+    "_description": "BGReceived 2016-05-02T11:45:32 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-05-02T11:45:32", 
+    "_body": "c23647", 
+    "_head": "3f0d", 
+    "amount": 111, 
+    "_date": "606deb6210"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-05-02T11:45:32 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-05-02T11:45:32", 
+    "_body": "", 
+    "_head": "0a6f", 
+    "amount": 111, 
+    "_date": "606d2b6210"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-05-02T11:30:28 head[2], body[0] op[0x16]", 
@@ -886,81 +946,5 @@
     "_head": "3308", 
     "rate": 0.2, 
     "_date": "6374054210"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-05-02T05:44:43 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-05-02T05:44:43", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "6b6c054210"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-05-02T05:44:43 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-05-02T05:44:43", 
-    "_body": "00", 
-    "_head": "331a", 
-    "rate": 0.65, 
-    "_date": "6b6c054210"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-05-02T05:40:36 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-05-02T05:40:36", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "6468054210"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-05-02T05:40:36 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-05-02T05:40:36", 
-    "_body": "00", 
-    "_head": "3312", 
-    "rate": 0.45, 
-    "_date": "6468054210"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-05-02T05:40:23 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-05-02T05:40:23", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "5768054210"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-05-02T05:40:23 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-05-02T05:40:23", 
-    "_body": "00", 
-    "_head": "3310", 
-    "rate": 0.4, 
-    "_date": "5768054210"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-05-02T05:30:58 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-05-02T05:30:58", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "7a5e054210"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-05-02T05:30:58 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-05-02T05:30:58", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "7a5e054210"
   }
 ]
