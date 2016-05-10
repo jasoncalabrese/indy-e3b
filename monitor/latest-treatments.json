@@ -1,24 +1,30 @@
 {
-  "_id": "5731eed465110bbfc192eeea",
-  "duration": 0,
-  "bolus": {
-    "programmed": 2.4,
-    "_type": "Bolus",
-    "_description": "Bolus 2016-05-10T07:20:05 head[8], body[0] op[0x01]",
-    "timestamp": "2016-05-10T07:20:05-07:00",
+  "_id": "5731f0b565110bbfc192eeed",
+  "duration": 30,
+  "raw_duration": {
+    "_type": "TempBasalDuration",
+    "_description": "TempBasalDuration 2016-05-10T07:27:26 head[2], body[0] op[0x16]",
+    "timestamp": "2016-05-10T07:27:26-07:00",
     "_body": "",
-    "_head": "0100600060000000",
-    "amount": 2.4,
-    "unabsorbed": 0,
-    "duration": 0,
-    "type": "normal",
-    "_date": "4554270a10"
+    "_head": "1601",
+    "duration (min)": 30,
+    "_date": "5a5b074a10"
   },
-  "timestamp": "2016-05-10T07:20:05-07:00",
-  "created_at": "2016-05-10T07:20:05-07:00",
-  "eventType": "Correction Bolus",
-  "insulin": 2.4,
-  "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 2.4\nDelivered bolus 2.4\nPercent delivered:  100%",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus",
+  "timestamp": "2016-05-10T07:27:26-07:00",
+  "absolute": 0.675,
+  "rate": 0.675,
+  "raw_rate": {
+    "_type": "TempBasal",
+    "temp": "absolute",
+    "_description": "TempBasal 2016-05-10T07:27:26 head[2], body[1] op[0x33]",
+    "timestamp": "2016-05-10T07:27:26-07:00",
+    "_body": "00",
+    "_head": "331b",
+    "rate": 0.675,
+    "_date": "5a5b074a10"
+  },
+  "eventType": "Temp Basal",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+  "created_at": "2016-05-10T07:27:26-07:00",
   "enteredBy": "openaps://medtronic/723"
 }
