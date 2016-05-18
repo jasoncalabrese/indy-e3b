@@ -1,16 +1,30 @@
 {
-  "_id": "573bd53e65110bbfc192fd47",
-  "_type": "CalBGForPH",
-  "_description": "CalBGForPH 2016-05-17T19:32:06 head[2], body[0] op[0x0a]",
-  "timestamp": "2016-05-17T19:32:06-07:00",
-  "_body": "",
-  "_head": "0a40",
-  "amount": 64,
-  "_date": "4660337110",
-  "eventType": "BG Check",
-  "glucose": 64,
-  "glucoseType": "Finger",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
-  "created_at": "2016-05-17T19:32:06-07:00",
+  "_id": "573bd6b465110bbfc192fd4d",
+  "duration": 30,
+  "raw_duration": {
+    "_type": "TempBasalDuration",
+    "_description": "TempBasalDuration 2016-05-17T19:40:58 head[2], body[0] op[0x16]",
+    "timestamp": "2016-05-17T19:40:58-07:00",
+    "_body": "",
+    "_head": "1601",
+    "duration (min)": 30,
+    "_date": "7a68135110"
+  },
+  "timestamp": "2016-05-17T19:40:58-07:00",
+  "absolute": 0.75,
+  "rate": 0.75,
+  "raw_rate": {
+    "_type": "TempBasal",
+    "temp": "absolute",
+    "_description": "TempBasal 2016-05-17T19:40:58 head[2], body[1] op[0x33]",
+    "timestamp": "2016-05-17T19:40:58-07:00",
+    "_body": "00",
+    "_head": "331e",
+    "rate": 0.75,
+    "_date": "7a68135110"
+  },
+  "eventType": "Temp Basal",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+  "created_at": "2016-05-17T19:40:58-07:00",
   "enteredBy": "openaps://medtronic/723"
 }
