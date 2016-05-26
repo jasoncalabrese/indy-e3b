@@ -1,16 +1,47 @@
 {
-  "_id": "57472de565110bbfc1930d09",
-  "_type": "CalBGForPH",
-  "_description": "CalBGForPH 2016-05-26T10:06:00 head[2], body[0] op[0x0a]",
-  "timestamp": "2016-05-26T10:06:00-07:00",
-  "_body": "",
-  "_head": "0a87",
-  "amount": 135,
-  "_date": "40462a7a10",
-  "eventType": "BG Check",
+  "_id": "57472f1e65110bbfc1930d0d",
+  "carbs": 18,
+  "ratio": "18",
+  "bg": "135",
   "glucose": 135,
-  "glucoseType": "Finger",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
-  "created_at": "2016-05-26T10:06:00-07:00",
+  "glucoseType": "BolusWizard",
+  "wizard": {
+    "_type": "BolusWizard",
+    "bg": 135,
+    "_description": "BolusWizard 2016-05-26T10:11:15 head[2], body[15] op[0x5b]",
+    "timestamp": "2016-05-26T10:11:15-07:00",
+    "_body": "125000b450730000280000000028a0",
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus",
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]",
+        "_body": "",
+        "_head": "5c0532c9c0",
+        "data": [
+          {
+            "amount": 1.25,
+            "age": 201
+          }
+        ],
+        "_date": ""
+      }
+    ],
+    "bg_target_high": 160,
+    "sensitivity": 80,
+    "carb_input": 18,
+    "carb_ratio": 18,
+    "food_estimate": 1,
+    "unabsorbed_insulin_total": 0,
+    "correction_estimate": 0,
+    "bg_target_low": 115,
+    "_head": "5b87",
+    "bolus_estimate": 1,
+    "_date": "4f4b0a1a10"
+  },
+  "timestamp": "2016-05-26T10:11:15-07:00",
+  "created_at": "2016-05-26T10:11:15-07:00",
+  "eventType": "Carb Correction",
+  "notes": "Food estimate 1\nCorrection estimate 0\nBolus estimate 1\nTarget low 115\nTarget high 160\nHypothetical glucose delta 0\nGlucose was: 135",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Carb Correction",
   "enteredBy": "openaps://medtronic/723"
 }
