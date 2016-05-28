@@ -1,5 +1,18 @@
 [
   {
+    "programmed": 1.2, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-05-27T19:43:24 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-05-27T19:43:24-07:00", 
+    "_body": "", 
+    "_head": "0100300030001800", 
+    "amount": 1.2, 
+    "unabsorbed": 0.6, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "586b337b10"
+  }, 
+  {
     "programmed": 0.6, 
     "_type": "Bolus", 
     "_description": "Bolus 2016-05-27T19:35:17 head[8], body[0] op[0x01]", 
@@ -839,78 +852,5 @@
     "_head": "3350", 
     "rate": 2.0, 
     "_date": "4e6d0d5b10"
-  }, 
-  {
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-05-27T13:41:08 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-05-27T13:41:08-07:00", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]", 
-        "_body": "", 
-        "_head": "5c0b4c71c028dfc0329dd0", 
-        "data": [
-          {
-            "amount": 1.9, 
-            "age": 113
-          }, 
-          {
-            "amount": 1.0, 
-            "age": 223
-          }, 
-          {
-            "amount": 1.25, 
-            "age": 413
-          }
-        ], 
-        "_date": ""
-      }
-    ], 
-    "programmed": 1.0, 
-    "duration": 0, 
-    "amount": 1.0, 
-    "unabsorbed": 0.55, 
-    "_head": "0100280028001600", 
-    "type": "normal", 
-    "_date": "48692d1b10"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 166, 
-    "_description": "BolusWizard 2016-05-27T13:41:08 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-05-27T13:41:08-07:00", 
-    "_body": "125000b450730200280000160028a0", 
-    "carb_input": 18, 
-    "bg_target_high": 160, 
-    "sensitivity": 80, 
-    "carb_ratio": 18.0, 
-    "food_estimate": 1.0, 
-    "unabsorbed_insulin_total": 0.55, 
-    "correction_estimate": 0.05, 
-    "bg_target_low": 115, 
-    "_head": "5ba6", 
-    "bolus_estimate": 1.0, 
-    "_date": "48690d1b10"
-  }, 
-  {
-    "_type": "BGReceived", 
-    "_description": "BGReceived 2016-05-27T13:38:57 head[2], body[3] op[0x3f]", 
-    "timestamp": "2016-05-27T13:38:57-07:00", 
-    "_body": "c23647", 
-    "_head": "3f14", 
-    "amount": 166, 
-    "link": "c23647", 
-    "_date": "7966cd7b10"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-05-27T13:38:57 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-05-27T13:38:57-07:00", 
-    "_body": "", 
-    "_head": "0aa6", 
-    "amount": 166, 
-    "_date": "79662d7b10"
   }
 ]
