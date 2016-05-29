@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "duration": "0",
+    "bolus": {
+      "programmed": 0.6,
+      "_type": "Bolus",
+      "_description": "Bolus 2016-05-29T15:34:42 head[8], body[0] op[0x01]",
+      "timestamp": "2016-05-29T15:34:42-07:00",
+      "_body": "",
+      "_head": "0100180018000600",
+      "amount": 0.6,
+      "unabsorbed": 0.15,
+      "duration": 0,
+      "type": "normal",
+      "_date": "6a622f7d10"
+    },
+    "timestamp": "2016-05-29T15:34:42-07:00",
+    "created_at": "2016-05-29T15:34:42-07:00",
+    "eventType": "Correction Bolus",
+    "insulin": "0.6",
+    "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 0.6\nDelivered bolus 0.6\nPercent delivered:  100%",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus",
+    "enteredBy": "openaps://medtronic/723"
+  },
+  {
+    "_type": "CalBGForPH",
+    "_description": "CalBGForPH 2016-05-29T15:34:07 head[2], body[0] op[0x0a]",
+    "timestamp": "2016-05-29T15:34:07-07:00",
+    "_body": "",
+    "_head": "0acb",
+    "amount": 203,
+    "_date": "47622f7d10",
+    "eventType": "BG Check",
+    "glucose": 203,
+    "glucoseType": "Finger",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
+    "created_at": "2016-05-29T15:34:07-07:00",
+    "enteredBy": "openaps://medtronic/723"
+  }
+]
