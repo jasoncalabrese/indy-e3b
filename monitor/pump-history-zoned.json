@@ -1,5 +1,148 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-06-03T11:49:28 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-06-03T11:49:28-07:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c08286fc0322dd0", 
+        "data": [
+          {
+            "amount": 1.0, 
+            "age": 111
+          }, 
+          {
+            "amount": 1.25, 
+            "age": 301
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 1.0, 
+    "duration": 0, 
+    "amount": 1.0, 
+    "unabsorbed": 0.3, 
+    "_head": "0100280028000c00", 
+    "type": "normal", 
+    "_date": "5cb12b0310"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 161, 
+    "_description": "BolusWizard 2016-06-03T11:49:28 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-06-03T11:49:28-07:00", 
+    "_body": "235000b4507300004c00000c004ca0", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c08286ec0322cd0", 
+        "data": [
+          {
+            "amount": 1.0, 
+            "age": 110
+          }, 
+          {
+            "amount": 1.25, 
+            "age": 300
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "bg_target_high": 160, 
+    "sensitivity": 80, 
+    "carb_input": 35, 
+    "carb_ratio": 18.0, 
+    "food_estimate": 1.9, 
+    "unabsorbed_insulin_total": 0.3, 
+    "correction_estimate": 0.0, 
+    "bg_target_low": 115, 
+    "_head": "5ba1", 
+    "bolus_estimate": 1.9, 
+    "_date": "5cb10b0310"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 161, 
+    "_description": "BolusWizard 2016-06-03T11:48:16 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-06-03T11:48:16-07:00", 
+    "_body": "235000b4507300004c00000e004ca0", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c08286dc0322bd0", 
+        "data": [
+          {
+            "amount": 1.0, 
+            "age": 109
+          }, 
+          {
+            "amount": 1.25, 
+            "age": 299
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "bg_target_high": 160, 
+    "sensitivity": 80, 
+    "carb_input": 35, 
+    "carb_ratio": 18.0, 
+    "food_estimate": 1.9, 
+    "unabsorbed_insulin_total": 0.35, 
+    "correction_estimate": 0.0, 
+    "bg_target_low": 115, 
+    "_head": "5ba1", 
+    "bolus_estimate": 1.9, 
+    "_date": "50b00b0310"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 161, 
+    "_description": "BolusWizard 2016-06-03T11:47:38 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-06-03T11:47:38-07:00", 
+    "_body": "235000b4507300004c00000e004ca0", 
+    "carb_input": 35, 
+    "bg_target_high": 160, 
+    "sensitivity": 80, 
+    "carb_ratio": 18.0, 
+    "food_estimate": 1.9, 
+    "unabsorbed_insulin_total": 0.35, 
+    "correction_estimate": 0.0, 
+    "bg_target_low": 115, 
+    "_head": "5ba1", 
+    "bolus_estimate": 1.9, 
+    "_date": "66af0b0310"
+  }, 
+  {
+    "_type": "BGReceived", 
+    "_description": "BGReceived 2016-06-03T11:46:40 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-06-03T11:46:40-07:00", 
+    "_body": "c23647", 
+    "_head": "3f14", 
+    "amount": 161, 
+    "link": "c23647", 
+    "_date": "68ae2b6310"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-06-03T11:46:40 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-06-03T11:46:40-07:00", 
+    "_body": "", 
+    "_head": "0aa1", 
+    "amount": 161, 
+    "_date": "68ae2b6310"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-06-03T11:38:24 head[2], body[0] op[0x16]", 
     "timestamp": "2016-06-03T11:38:24-07:00", 
