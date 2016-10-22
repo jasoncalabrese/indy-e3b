@@ -1,5 +1,55 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-10-22T08:54:28 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-10-22T08:54:28-07:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c080824c0209cc0", 
+        "data": [
+          {
+            "amount": 0.2, 
+            "age": 36
+          }, 
+          {
+            "amount": 0.8, 
+            "age": 156
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 0.1, 
+    "duration": 0, 
+    "amount": 0.1, 
+    "unabsorbed": 0.25, 
+    "_head": "0100040004000a00", 
+    "type": "normal", 
+    "_date": "9cb6281610"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "_description": "BolusWizard 2016-10-22T08:54:28 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-10-22T08:54:28-07:00", 
+    "_body": "0a5000825a6e00001e000000001eb4", 
+    "carb_input": 10, 
+    "bg_target_high": 180, 
+    "sensitivity": 90, 
+    "carb_ratio": 13.0, 
+    "food_estimate": 0.75, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "bg_target_low": 110, 
+    "_head": "5b00", 
+    "bolus_estimate": 0.75, 
+    "_date": "9cb6081610"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-10-22T08:51:48 head[2], body[0] op[0x16]", 
     "timestamp": "2016-10-22T08:51:48-07:00", 
@@ -778,24 +828,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "b080035610"
-  }, 
-  {
-    "_type": "BGReceived", 
-    "_description": "BGReceived 2016-10-22T02:53:43 head[2], body[3] op[0x3f]", 
-    "timestamp": "2016-10-22T02:53:43-07:00", 
-    "_body": "c23647", 
-    "_head": "3f09", 
-    "amount": 72, 
-    "link": "c23647", 
-    "_date": "abb5027610"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-10-22T02:53:43 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-10-22T02:53:43-07:00", 
-    "_body": "", 
-    "_head": "0a48", 
-    "amount": 72, 
-    "_date": "abb5227610"
   }
 ]
