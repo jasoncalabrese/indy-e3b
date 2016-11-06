@@ -1,6 +1,17 @@
 [
   {
     "_type": "BasalProfileStart", 
+    "offset": 7200000, 
+    "_description": "BasalProfileStart 2016-11-06T02:00:00 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-11-06T02:00:00", 
+    "_body": "041800", 
+    "profile_index": 2, 
+    "_head": "7b02", 
+    "rate": 0.6, 
+    "_date": "80c0020610"
+  }, 
+  {
+    "_type": "BasalProfileStart", 
     "offset": 3600000, 
     "_description": "BasalProfileStart 2016-11-06T01:22:41 head[2], body[3] op[0x7b]", 
     "timestamp": "2016-11-06T01:22:41", 
@@ -656,124 +667,5 @@
     "_head": "331c", 
     "rate": 0.7, 
     "_date": "a1c1144510"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-11-05T19:49:31 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-11-05T19:49:31", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "9ff1134510"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-11-05T19:49:31 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-11-05T19:49:31", 
-    "_body": "00", 
-    "_head": "331c", 
-    "rate": 0.7, 
-    "_date": "9ff1134510"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-11-05T19:37:58 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-11-05T19:37:58", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "bae5134510"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-11-05T19:37:58 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-11-05T19:37:58", 
-    "_body": "00", 
-    "_head": "331c", 
-    "rate": 0.7, 
-    "_date": "bae5134510"
-  }, 
-  {
-    "programmed": 2.6, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-11-05T19:33:49 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-11-05T19:33:49", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[17], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 0.6, 
-            "age": 15
-          }, 
-          {
-            "amount": 1.5, 
-            "age": 265
-          }, 
-          {
-            "amount": 0.3, 
-            "age": 385
-          }, 
-          {
-            "amount": 0.75, 
-            "age": 435
-          }, 
-          {
-            "amount": 0.05, 
-            "age": 445
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c11180fc03c09d00c81d01eb3d002bdd0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100680068001800", 
-    "amount": 2.6, 
-    "unabsorbed": 0.6, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "b1e1330510"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 0, 
-    "bg_target_high": 180, 
-    "_description": "BolusWizard 2016-11-05T19:33:49 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-11-05T19:33:49", 
-    "_body": "505000c8506e0000a000000000a0b4", 
-    "_head": "5b00", 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 0.0, 
-    "_date": "b1e1130510", 
-    "bolus_estimate": 4.0, 
-    "bg_target_low": 110, 
-    "carb_ratio": 20.0, 
-    "food_estimate": 4.0, 
-    "carb_input": 80, 
-    "sensitivity": 80
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-11-05T19:24:12 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-11-05T19:24:12", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "8cd8134510"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-11-05T19:24:12 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-11-05T19:24:12", 
-    "_body": "00", 
-    "_head": "3316", 
-    "rate": 0.55, 
-    "_date": "8cd8134510"
   }
 ]
