@@ -7,72 +7,118 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-01-02T17:33:13.867Z", 
+      "timestamp": "2017-01-02T17:38:13.786Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 93.6, 
-    "clock": "2017-01-02T09:33:26-08:00"
+    "reservoir": 93.55, 
+    "clock": "2017-01-02T09:38:26-08:00"
   }, 
   "uploader": {
     "battery": 90, 
-    "batteryVoltage": 4082
+    "batteryVoltage": 4083
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2017-01-02T17:35:58.126Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Mon Jan 02 2017 09:04:54 GMT-0800 (PST) but your system time is Mon Jan 02 2017 09:35:58 GMT-0800 (PST)"
+      "bg": 165, 
+      "temp": "absolute", 
+      "snoozeBG": 109, 
+      "timestamp": "2017-01-02T17:40:04.391Z", 
+      "predBGs": {
+        "IOB": [
+          165, 
+          165, 
+          164, 
+          162, 
+          160, 
+          158, 
+          154, 
+          151, 
+          147, 
+          142, 
+          138, 
+          133, 
+          128, 
+          123, 
+          119, 
+          114, 
+          110, 
+          106, 
+          102, 
+          99, 
+          96, 
+          93, 
+          90, 
+          88, 
+          86, 
+          84, 
+          83, 
+          82, 
+          81, 
+          80, 
+          80, 
+          79, 
+          79, 
+          79, 
+          78
+        ]
+      }, 
+      "reason": "COB: 0, Dev: 25, BGI: -4.18, ISF: 90, Target: 80; Eventual BG 93 >= 80, temp 1.3 >~ req 0.875U/hr", 
+      "COB": 0, 
+      "eventualBG": 93, 
+      "tick": "+0", 
+      "IOB": 1.074
     }, 
     "iob": {
       "netbasalinsulin": 1.05, 
-      "timestamp": "2017-01-02T17:33:26.000Z", 
-      "activity": 0.0089, 
-      "basaliob": 0.717, 
+      "timestamp": "2017-01-02T17:38:26.000Z", 
+      "activity": 0.0093, 
+      "basaliob": 0.748, 
       "hightempinsulin": 1.2, 
-      "bolussnooze": 0.145, 
-      "iob": 1.07
+      "bolussnooze": 0.116, 
+      "iob": 1.074
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
         "916.540", 
-        1, 
-        -92
+        3, 
+        -73
       ], 
       [
         "916.564", 
-        3, 
-        -71
+        5, 
+        -47
       ], 
       [
         "916.588", 
         5, 
-        -51
+        -45
       ], 
       [
         "916.612", 
         5, 
-        -50
+        -45
       ], 
       [
         "916.636", 
         5, 
-        -49
+        -45
       ], 
       [
         "916.660", 
         5, 
-        -50
+        -46
       ], 
       [
         "916.684", 
         5, 
-        -54
+        -50
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2017-01-02T17:32:52.168Z", 
+    "timestamp": "2017-01-02T17:37:52.615Z", 
     "usedDefault": false
   }
 }
