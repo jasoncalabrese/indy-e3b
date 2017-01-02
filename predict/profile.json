@@ -1,15 +1,15 @@
 {
-  "max_bg": 110, 
-  "carbratio_adjustmentratio": 0.7, 
-  "autosens_min": 0.9, 
-  "max_daily_safety_multiplier": 5, 
+  "temptargetSet": true, 
+  "min_bg": 80, 
+  "max_iob": 2.5, 
+  "max_daily_basal": 1.1, 
   "isfProfile": {
     "units": "mg/dL", 
     "sensitivities": [
       {
         "endOffset": 1440, 
         "i": 0, 
-        "sensitivity": 80, 
+        "sensitivity": 90, 
         "start": "00:00:00", 
         "offset": 0, 
         "x": 0
@@ -17,35 +17,39 @@
     ], 
     "first": 1
   }, 
+  "current_basal_safety_multiplier": 6, 
+  "override_high_target_with_low": true, 
+  "sens": 90, 
+  "carbratio_adjustmentratio": 0.7, 
   "basalprofile": [
     {
       "i": 0, 
       "start": "00:00:00", 
-      "rate": 0.8250000000000001, 
+      "rate": 0.9750000000000001, 
       "minutes": 0
     }, 
     {
       "i": 1, 
       "start": "01:00:00", 
-      "rate": 0.7250000000000001, 
+      "rate": 0.875, 
       "minutes": 60
     }, 
     {
       "i": 2, 
       "start": "02:00:00", 
-      "rate": 0.6000000000000001, 
+      "rate": 0.625, 
       "minutes": 120
     }, 
     {
       "i": 3, 
       "start": "03:30:00", 
-      "rate": 0.5, 
+      "rate": 0.525, 
       "minutes": 210
     }, 
     {
       "i": 4, 
       "start": "07:00:00", 
-      "rate": 0.55, 
+      "rate": 0.6000000000000001, 
       "minutes": 420
     }, 
     {
@@ -57,41 +61,39 @@
     {
       "i": 6, 
       "start": "14:00:00", 
-      "rate": 0.65, 
+      "rate": 0.6000000000000001, 
       "minutes": 840
     }, 
     {
       "i": 7, 
       "start": "18:00:00", 
-      "rate": 0.65, 
+      "rate": 0.7000000000000001, 
       "minutes": 1080
     }, 
     {
       "i": 8, 
       "start": "19:30:00", 
-      "rate": 0.8, 
+      "rate": 0.9, 
       "minutes": 1170
     }, 
     {
       "i": 9, 
       "start": "21:00:00", 
-      "rate": 0.925, 
+      "rate": 1.1, 
       "minutes": 1260
     }
   ], 
-  "bolussnooze_dia_divisor": 2, 
-  "sens": 80, 
-  "current_basal_safety_multiplier": 6, 
-  "autosens_adjust_targets": true, 
-  "override_high_target_with_low": true, 
-  "min_bg": 110, 
-  "carb_ratio": 14, 
-  "current_basal": 0.65, 
-  "max_iob": 2.5, 
+  "max_bg": 80, 
+  "autosens_min": 0.9, 
+  "max_daily_safety_multiplier": 5, 
   "min_5m_carbimpact": 4, 
+  "current_basal": 0.6, 
   "max_basal": 3.25, 
-  "autosens_max": 1.1, 
   "type": "current", 
+  "bolussnooze_dia_divisor": 2, 
   "dia": 3, 
-  "max_daily_basal": 0.925
+  "autosens_adjust_targets": true, 
+  "carb_ratio": 8.399999999999999, 
+  "model": "723", 
+  "autosens_max": 1.1
 }
