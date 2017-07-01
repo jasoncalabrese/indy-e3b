@@ -1,14 +1,14 @@
 {
   "min_bg": 100, 
   "max_iob": 2.5, 
-  "max_daily_basal": 1.1, 
+  "max_daily_basal": 1.3, 
   "isfProfile": {
     "units": "mg/dL", 
     "sensitivities": [
       {
         "endOffset": 1440, 
         "i": 0, 
-        "sensitivity": 90, 
+        "sensitivity": 95, 
         "start": "00:00:00", 
         "offset": 0, 
         "x": 0
@@ -18,37 +18,37 @@
   }, 
   "current_basal_safety_multiplier": 6, 
   "override_high_target_with_low": true, 
-  "sens": 90, 
+  "sens": 95, 
   "carbratio_adjustmentratio": 0.7, 
   "basalprofile": [
     {
       "i": 0, 
       "start": "00:00:00", 
-      "rate": 0.9750000000000001, 
+      "rate": 1.1, 
       "minutes": 0
     }, 
     {
       "i": 1, 
       "start": "01:00:00", 
-      "rate": 0.875, 
+      "rate": 0.9750000000000001, 
       "minutes": 60
     }, 
     {
       "i": 2, 
       "start": "02:00:00", 
-      "rate": 0.625, 
+      "rate": 0.75, 
       "minutes": 120
     }, 
     {
       "i": 3, 
       "start": "03:30:00", 
-      "rate": 0.525, 
+      "rate": 0.6000000000000001, 
       "minutes": 210
     }, 
     {
       "i": 4, 
       "start": "07:00:00", 
-      "rate": 0.6000000000000001, 
+      "rate": 0.625, 
       "minutes": 420
     }, 
     {
@@ -78,7 +78,7 @@
     {
       "i": 9, 
       "start": "21:00:00", 
-      "rate": 1.1, 
+      "rate": 1.3, 
       "minutes": 1260
     }
   ], 
@@ -92,7 +92,7 @@
   "bolussnooze_dia_divisor": 2, 
   "dia": 3, 
   "autosens_adjust_targets": true, 
-  "carb_ratio": 12.6, 
+  "carb_ratio": 11.899999999999999, 
   "model": "723", 
   "autosens_max": 1.1
 }
