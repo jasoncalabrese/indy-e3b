@@ -1,5 +1,37 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2017-07-01T23:32:21 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-07-01T23:32:21-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "55e0174111"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-07-01T23:32:21 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-07-01T23:32:21-07:00", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "55e0174111"
+  }, 
+  {
+    "programmed": 0.6, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2017-07-01T23:25:26 head[8], body[0] op[0x01]", 
+    "timestamp": "2017-07-01T23:25:26-07:00", 
+    "_body": "", 
+    "_head": "0100180018000000", 
+    "amount": 0.6, 
+    "unabsorbed": 0.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "5ad9376111"
+  }, 
+  {
     "_type": "BGReceived", 
     "_description": "BGReceived 2017-07-01T23:19:55 head[2], body[3] op[0x3f]", 
     "timestamp": "2017-07-01T23:19:55-07:00", 
@@ -839,24 +871,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "48e3114111"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2017-07-01T17:22:42 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-07-01T17:22:42-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "6ad6114111"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-07-01T17:22:42 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-07-01T17:22:42-07:00", 
-    "_body": "00", 
-    "_head": "3341", 
-    "rate": 1.625, 
-    "_date": "6ad6114111"
   }
 ]
