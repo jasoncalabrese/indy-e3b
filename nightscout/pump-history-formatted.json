@@ -1,5 +1,43 @@
 [
   {
+    "bolus": {
+      "programmed": 0.6, 
+      "_type": "Bolus", 
+      "_description": "Bolus 2017-07-03T20:33:20 head[8], body[0] op[0x01]", 
+      "timestamp": "2017-07-03T20:33:20-07:00", 
+      "_body": "", 
+      "_head": "0100180018000800", 
+      "amount": 0.6, 
+      "unabsorbed": 0.2, 
+      "duration": 0, 
+      "type": "normal", 
+      "_date": "54e1346311"
+    }, 
+    "timestamp": "2017-07-03T20:33:20-07:00", 
+    "created_at": "2017-07-03T20:33:20-07:00", 
+    "enteredBy": "openaps://medtronic/723", 
+    "insulin": "0.6", 
+    "eventType": "Correction Bolus", 
+    "duration": "0", 
+    "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 0.6\nDelivered bolus 0.6\nPercent delivered:  100%", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2017-07-03T20:22:31 head[2], body[0] op[0x0a]", 
+    "timestamp": "2017-07-03T20:22:31-07:00", 
+    "_body": "", 
+    "glucoseType": "Finger", 
+    "_head": "0a34", 
+    "enteredBy": "openaps://medtronic/723", 
+    "amount": 52, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
+    "eventType": "BG Check", 
+    "created_at": "2017-07-03T20:22:31-07:00", 
+    "_date": "5fd6346311", 
+    "glucose": 52
+  }, 
+  {
     "raw_rate": {
       "_type": "TempBasal", 
       "temp": "absolute", 
@@ -530,47 +568,5 @@
     "created_at": "2017-07-03T15:05:17-07:00", 
     "_date": "51c52f6311", 
     "glucose": 96
-  }, 
-  {
-    "_type": "PumpSuspend", 
-    "_description": "PumpSuspend 2017-07-03T14:15:17 head[2], body[0] op[0x1e]", 
-    "notes": "PumpSuspend 723 ", 
-    "timestamp": "2017-07-03T14:15:17-07:00", 
-    "_body": "", 
-    "_head": "1e01", 
-    "enteredBy": "openaps://medtronic/723", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/PumpSuspend", 
-    "eventType": "Note", 
-    "created_at": "2017-07-03T14:15:17-07:00", 
-    "_date": "51cf0e0311"
-  }, 
-  {
-    "raw_rate": {
-      "_type": "TempBasal", 
-      "temp": "absolute", 
-      "_description": "TempBasal 2017-07-03T14:15:08 head[2], body[1] op[0x33]", 
-      "timestamp": "2017-07-03T14:15:08-07:00", 
-      "_body": "00", 
-      "_head": "3300", 
-      "rate": 0, 
-      "_date": "48cf0e0311"
-    }, 
-    "raw_duration": {
-      "_type": "TempBasalDuration", 
-      "_description": "TempBasalDuration 2017-07-03T14:15:08 head[2], body[0] op[0x16]", 
-      "timestamp": "2017-07-03T14:15:08-07:00", 
-      "_body": "", 
-      "_head": "1604", 
-      "duration (min)": 120, 
-      "_date": "48cf0e0311"
-    }, 
-    "created_at": "2017-07-03T14:15:08-07:00", 
-    "enteredBy": "openaps://medtronic/723", 
-    "rate": 0, 
-    "eventType": "Temp Basal", 
-    "timestamp": "2017-07-03T14:15:08-07:00", 
-    "duration": "120", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
-    "absolute": "0"
   }
 ]
