@@ -7,12 +7,12 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-07-07T20:40:22.005Z", 
+      "timestamp": "2017-07-07T20:43:24.687Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 108.95, 
-    "clock": "2017-07-07T13:40:52-07:00"
+    "reservoir": 108.925, 
+    "clock": "2017-07-07T13:43:55-07:00"
   }, 
   "uploader": {
     "battery": 100, 
@@ -20,31 +20,57 @@
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2017-07-07T20:41:44.906Z", 
-      "reason": "CGM is calibrating or in ??? state; setting current basal of 0.6 as temp, but 26m left and 0.55 ~ req 0.6U/hr: no action required"
+      "bg": 39, 
+      "temp": "absolute", 
+      "snoozeBG": -62, 
+      "timestamp": "2017-07-07T20:44:58.427Z", 
+      "reason": "COB: 0, Dev: -127, BGI: 1.05, ISF: 95, Target: 100; BG 39<75", 
+      "rate": 0, 
+      "COB": 0, 
+      "eventualBG": -62, 
+      "duration": 30, 
+      "tick": "+0", 
+      "IOB": -0.277
     }, 
     "iob": {
       "netbasalinsulin": -0.5, 
-      "timestamp": "2017-07-07T20:40:52.000Z", 
+      "timestamp": "2017-07-07T20:43:55.000Z", 
       "activity": -0.0022, 
-      "basaliob": -0.284, 
+      "basaliob": -0.277, 
       "hightempinsulin": 0.25, 
       "bolussnooze": 0, 
-      "iob": -0.284
+      "iob": -0.277
     }, 
     "enacted": {
-      "bg": 87, 
+      "bg": 39, 
       "temp": "absolute", 
-      "snoozeBG": 99, 
+      "snoozeBG": -62, 
       "recieved": true, 
-      "rate": 0.55, 
-      "reason": "COB: 0, Dev: -17, BGI: 1.05, ISF: 95, Target: 100; Eventual BG 99 < 100, 21m@-0.600 = -0.210 < req -0.021052631578947368-0.18", 
+      "predBGs": {
+        "IOB": [
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39
+        ]
+      }, 
+      "rate": 0, 
+      "reason": "COB: 0, Dev: -127, BGI: 1.05, ISF: 95, Target: 100; BG 39<75", 
       "COB": 0, 
-      "eventualBG": 99, 
-      "timestamp": "2017-07-07T20:35:31.423Z", 
+      "eventualBG": -62, 
+      "timestamp": "2017-07-07T20:45:19.077Z", 
       "duration": 30, 
-      "tick": -1, 
-      "IOB": -0.3
+      "tick": "+0", 
+      "IOB": -0.277
     }
   }, 
   "mmtune": {
@@ -77,11 +103,11 @@
       [
         "916.708", 
         5, 
-        -87
+        -86
       ]
     ], 
     "setFreq": 916.684, 
-    "timestamp": "2017-07-07T20:40:03.245Z", 
+    "timestamp": "2017-07-07T20:43:06.076Z", 
     "usedDefault": false
   }
 }
